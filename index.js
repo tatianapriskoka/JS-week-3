@@ -10,5 +10,5 @@ function discount() {
     res.textContent = (`${(Number(p1.innerHTML) + Number(p2.innerHTML) + Number(p3.innerHTML) + Number(p4.innerHTML)) * 0.8} рублей`);
 
     const eventTarget = discount.target;
-    eventTarget.setAttribute('disabled', true); //чтобы кнопка сработала один раз
+    eventTarget.setAttribute('disabled', true);
 }
